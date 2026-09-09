@@ -1,5 +1,5 @@
 name = "glemy"
-version = "0.1.0"
+version = "0.1.1"
 target = "javascript"
 description = "A functional-core, imperative-shell 2D physics/game engine for Gleam, targeting both Erlang and JavaScript."
 licences = ["BSD-3-Clause"]
