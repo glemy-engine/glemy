@@ -1,0 +1,19 @@
+name = "glemy"
+version = "0.1.0"
+target = "javascript"
+description = "A functional-core, imperative-shell 2D physics/game engine for Gleam, targeting both Erlang and JavaScript."
+licences = ["BSD-3-Clause"]
+repository = { type = "github", user = "glemy-engine", repo = "glemy" }
+
+[dependencies]
+gleam_stdlib = ">= 1.0.0 and < 2.0.0"
+gleam_javascript = ">= 1.0.1 and < 2.0.0"
+
+[dev_dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
+
+[javascript]
+runtime = "deno"
+
+[javascript.deno]
+allow_read = true
